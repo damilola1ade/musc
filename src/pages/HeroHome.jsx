@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import Modal from '../utils/Modal';
 import HeroImage from '../assets/hero-image.jpg';
 
@@ -8,7 +7,7 @@ function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   return (
-    <section className='relative overflow-hidden'>
+    <section id='about' className='relative overflow-hidden'>
 
       {/* Illustration behind hero content */}
       <div data-aos='fade-right' data-aos-duration='700' className='absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none' aria-hidden='true'>
@@ -39,10 +38,7 @@ function HeroHome() {
               <p className='text-xl text-gray-600 mb-8' data-aos='zoom-y-out' data-aos-delay='150'>Does your company or agency require new or updated IT infrastructure?</p>
               <div className='max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center' data-aos='zoom-y-out' data-aos-delay='300'>
                 <div>
-                  <Link to='/contact' className='btn text-white bg-cyan-600 hover:bg-cyan-700 w-full mb-4 sm:w-auto sm:mb-0'> Contact Us</Link>
-                </div>
-                <div>
-                  <Link to='/team' className='btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4'>Meet The Team</Link>
+                  <a href='#stats' className='btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4'>Get Started</a>
                 </div>
               </div>
             </div>

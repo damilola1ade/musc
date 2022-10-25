@@ -1,22 +1,24 @@
 import React, {useEffect} from 'react';
 import Header from '../pages/Header';
 import Clients from '../pages/Clients';
+import Blog from '../pages/Blog';
+import Stats from '../pages/Stats';
 import HeroHome from '../pages/HeroHome';
 import Features from '../pages/Features';
 import FeaturesBlocks from '../pages/FeaturesBlocks';
+import Possibility from '../pages/Possiblility';
 import Team from '../pages/Team';
 import Contact from '../pages/Contact';
 import Footer from '../pages/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Possibility from '../pages/Possiblility';
 
 
 function Home() {
   useEffect(() => {
     AOS.init({
-      once: false,
-      mirror:false,
+      once: true,
+      mirror:true,
       duration: 1000,
     });
   });
@@ -33,10 +35,12 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
+        <Stats />
         <Features />
         <FeaturesBlocks />
         <Clients />
         <Possibility />
+        <Blog />
         <Team />
         <Contact />
 

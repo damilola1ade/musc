@@ -29,7 +29,8 @@ function Contact() {
   };
 
     return (
-        <div data-aos='zoom-y-out' data-aos-duration='700' className='flex flex-col min-h-screen overflow-hidden'>
+        <section id='contact'>
+            <div data-aos='zoom-y-out' data-aos-duration='700' className='flex flex-col min-h-screen overflow-hidden'>
         <div className="relatve container overflow-hidden mx-auto lg:pt-24 " data-aos="zoom-in">
             <div className="lg:flex">
                 <div className="xl:w-2/5 lg:w-2/5 bg-cyan-700 py-8 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
@@ -103,6 +104,8 @@ function Contact() {
             </div>
         </div>
         </div>
+        </section>
+        
     );
 }
 

@@ -7,8 +7,9 @@ import AboutCard from './AboutCard';
 function Features() {
 
     return (
-      <div data-aos="fade-down" className='w-full bg-black text-white text-center mt-30 overflow-hidden'>
-        <div className='max-w-[1240px] mx-auto px-4 py-44 '>
+      <section id='services'>
+        <div data-aos="fade-down" className='w-full bg-black text-white text-center mt-30 overflow-hidden'>
+        <div className='max-w-[1240px] mx-auto px-4 py-20'>
           <div>
             <h1 className='h2 mb-4'>Customized and cost-effective IT solutions</h1>
             <p className='py-4 text-xl'>
@@ -28,6 +29,8 @@ function Features() {
           </div>
         </div>
       </div>
+      </section>
+      
     );
   };
 

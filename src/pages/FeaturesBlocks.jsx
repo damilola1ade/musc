@@ -5,9 +5,9 @@ function FeaturesBlocks () {
 
 return (
   <section id="proaccts-section">
-    <div data-aos="fade-right" className="flex bg-white mb-7 pt-7 max-w-[1240px] mx-auto px-4 ">
+    <div data-aos="fade-right" className="flex bg-white mx-auto px-4">
       <div className="flex flex-col md:flex-row">
-        <div className="flex flex-col my-auto text-black">
+        <div className=" max-w-[1240px] my-10 text-black">
           
           <h2 className="h3 mb-4">Empowering Africa</h2>
           <p className="text-base ">
@@ -24,9 +24,9 @@ return (
           </div>
         </div>
 
-        <div data-aos="fade-left" className=" flex justify-center items-center md:mr-10 mr-0 md:mt-0 mt-10 relative">
+        <div data-aos="fade-left" className=" flex justify-center items-center md:mr-10 md:mt-0 mb-20">
           <div>
-            <img className='w-[250%] h-[250%] ' src={africa} alt="" />
+            <img className='w-[250%] h-[250%]' src={africa} alt="" />
           </div>
         </div>
       </div>
